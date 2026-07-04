@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #222;
+}
+.Title {
+	color: white;
+}
+
+.Level {
+  color: white;
+}
+
+.container .exp {
+  color: white;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  z-index: 5;
+}
+
+.container span {
+  position: relative;
+  background: rgba(255, 255, 0, 0.7);
+  border: 1px solid yellow;
+  color: transparent;
+  width: 30%;
+}
+
+.container {
+  display: flex;
+  margin-left: 5px;
+  text-align: center;
+    border: 1px solid yellow;
+  background: rgba(255, 255, 0, 0.2);
+  position: absolute;
+  width: 300px;
+  height: 20px;
+}
