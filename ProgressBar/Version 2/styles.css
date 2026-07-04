@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #222;
+  /* background: url(https://cdnb.artstation.com/p/assets/images/images/052/707/451/large/rebecca-rupert-octopus-full-illustration.jpg?1660487673);
+  background-repeat: no-repeat;
+  background-size: 100%;*/
+}
+
+/* MAIN MENU */
+.main-menu {
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 250px;
+}
+
+
+
+/* MAIN MENU */
+
+
+/* MAIN BODY */
+main {
+  display: block;
+  opacity: 1;
+}
+
+.hud {
+  user-select: none;
+  position: absolute;
+  margin: 5px;
+  width: 360px;
+  height: 200px;
+  padding: 5px;
+  display: block;
+  justify-items: center;
+  align-content: center;
+}
+
+.hud h1 {
+  color: white;
+  position: relative;
+  left: -35%;
+}
+
+.hud .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hud .container .progress-bar {
+  position: relative;
+  width: 65%;
+  margin: 5px 0px;
+}
+
+
+.hud .container .progress-bar .label {
+  color: white;
+  font-size: 20;
+  margin: 2px 0;
+}
+
+.hud .container .progress-bar:nth-child(1) .label {
+  color: rgb(0, 255, 0);
+}
+
+.hud .container .progress-bar:nth-child(2) .label {
+  color: rgb(0, 85, 255);
+}
+
+.hud .container .progress-bar:nth-child(3) .label {
+  color: rgb(238, 255, 0);
+}
+
+.hud .container .progress-bar .bar {
+  justify-self: center;
+  position: relative;
+  width: 100%;
+  height: 20px;
+}
+
+.hud .container .progress-bar .bar .filler {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+  color: white;
+  height: 102.5%;
+  background: rgba(0, 213, 0, 0.921);
+  border-radius: 0 5px 25px 0;
+  border: 1px solid transparent;
+}
+
+.hud .container .progress-bar:nth-child(2) .bar .filler {
+  background: rgb(0, 60, 181);
+  width: 50%;
+}
+
+.hud .container .progress-bar:nth-child(3) .bar .filler {
+  background: rgb(166, 181, 0);
+  width: 50%;
+  height: 78%;
+}
+
+.hud .container .progress-bar .bar .value {
+  position: relative;
+  border-radius: 0 5px 25px 0;
+  background: rgba(255, 255, 255, .1);
+  color: white;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  border: 1px solid white;
+}
+.hud .container .progress-bar:nth-child(1) .bar .value {
+  border: 1px solid rgb(60, 255, 0);
+}
+.hud .container .progress-bar:nth-child(2) .bar .value {
+  border: 1px solid rgb(0, 157, 255);
+}
+.hud .container .progress-bar:nth-child(3) .bar .value {
+  height: 75%;
+  border: 1px solid rgb(255, 251, 0);
+  font-size: 13px;
+}
+/* MAIN BODY */
+
+
+
