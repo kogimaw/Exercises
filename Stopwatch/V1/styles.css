@@ -1,0 +1,111 @@
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #111;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
+}
+
+.stopwatch {
+  border-radius: 10px;
+  width: 275px;
+  height: 300px;
+  background: #222;
+  backdrop-filter: blur(20px);
+  border: 1px solid gray;
+}
+
+.stopwatch .textlabel {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  font-size: 25px;
+}
+
+.stopwatch .content {
+  border-radius: 15px;
+  justify-items: center;
+  justify-self: center;
+  position: relative;
+  height: 86%;
+  width: 95%;
+  background: #444;
+}
+
+.stopwatch .content .display{
+  position: relative;
+  top: 10px;
+  width: 250px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #222;
+  font-size: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.stopwatch .content .record {
+  position: relative;
+  top: 10px;
+  height: 125px;
+  width: 90%;
+  margin-bottom: 10px;
+  overflow: scroll;
+
+}
+
+.stopwatch .content .record .rank {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch .content .record p {
+  margin: 0 5px;
+  font-size: 20px;
+  height: 20px;
+}
+
+.stopwatch .content .play{
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 50px;
+}
+
+.stopwatch .content .play button {
+  border: none;
+  font-size: 30px;
+  font-weight: 800;
+  justify-self: center;
+  width: 100px;
+  align-self: center;
+  border-radius: 15px;
+  transition: .2s all ease; 
+}
+
+.stopwatch .content .play button:nth-child(1) {
+  background: limegreen;
+}
+
+.stopwatch .content .play button:nth-child(2) {
+  width: 50px;
+  height: 25px;
+  margin: 0 5px;
+  background: rgb(255, 187, 0);
+}
+.stopwatch .content .play button:nth-child(3) {
+  background: rgb(159, 0, 203);
+}
+
+.stopwatch .content .play button:hover {
+  font-size: 33px;
+}
+
+
